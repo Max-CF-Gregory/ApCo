@@ -1,0 +1,5 @@
+Strawberry 100
+Orange 20
+Lemon 20
+Raspberry 80
+Melon 5

@@ -1,0 +1,5 @@
+Lemon 2
+Melon 3
+Orange 1
+Raspberry 2
+Strawberry 0

@@ -1,0 +1,1 @@
+print([x+5 for x in range(50,61)])

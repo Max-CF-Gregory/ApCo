@@ -1,0 +1,3 @@
+Max got to 2 with 42 throws. 
+Anouska got to 0 with 40 throws. 
+Anouska won.
