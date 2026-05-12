@@ -1,0 +1,14 @@
+body {
+  background-color: #0A0A0A;
+  text-align: center;
+
+}
+.p1 {
+  font-family: "Helvetica Compressed", monospace;
+  color: #CC0000;
+}
+
+.p2 {
+  font-family: "Helvetica", monospace;
+  color: #FFFFFF;
+}

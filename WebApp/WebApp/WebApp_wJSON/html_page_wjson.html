@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>
+    My name is <span id="name"></span><br>
+    My age is <span id="age"></span><br>
+    I study Computer Science
+  </p>
+  <script>
+    fetch("data.json")
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("name").textContent = data.name;
+        document.getElementById("age").textContent = data.age;
+      });
+  </script>
+</body>
+</html>

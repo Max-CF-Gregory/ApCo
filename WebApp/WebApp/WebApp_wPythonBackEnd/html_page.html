@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="loadData()">Load Info</button>
+  <p>
+    My name is <span id="name"></span><br>
+    My age is <span id="age"></span><br>
+    I study Computer Science
+  </p>
+  <script>
+    function loadData() {
+      fetch("http://localhost:8000/data")
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("name").textContent = data.name;
+          document.getElementById("age").textContent = data.age;
+        });
+    }
+  </script>
+</body>
+</html>
