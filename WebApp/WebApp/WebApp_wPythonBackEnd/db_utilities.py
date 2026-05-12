@@ -19,4 +19,3 @@ def access_db(q:str, write_query=False):
     except:
         print("query failed to execute")
         connection.close()
-
